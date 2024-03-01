@@ -16,11 +16,9 @@ public class PersegiPanjangDemo {
 
         }
         for (int i=0; i<3; i++){
-            System.out.println("Persegi Panjang ke- "+ (i+1) + 
-            ", panjang: "+ arrayOfPersegiPanjang[i].panjang+ 
-            ", lebar: "+arrayOfPersegiPanjang[i].lebar);
+            arrayOfPersegiPanjang[i].cetakInfo();
         }
-
+       
        
     }
 }
