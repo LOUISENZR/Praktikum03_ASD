@@ -20,12 +20,12 @@ public class Tugas1Demo {
 
             daftarMahasiswa[i] = new Tugas1_16(nama, nim, jenisKelamin, ipk);
         }
-        for (int i=0; i<jumlahMahasiswa; i++){
-        System.out.println("\nData Mahasiswa ke- "+ (i+1));
-            for (Tugas1_16 mahasiswa : daftarMahasiswa) {
-                mahasiswa.cetakInfo();
-            }
+        int i = 1;
+        for (Tugas1_16 mahasiswa : daftarMahasiswa) {
+            System.out.println("\nData Mahasiswa ke-" + i++);
+            mahasiswa.cetakInfo();
         }
+
         double totalIPK = 0;
         for (Tugas1_16 mahasiswa : daftarMahasiswa) {
             totalIPK += mahasiswa.ipk;
