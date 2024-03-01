@@ -6,4 +6,8 @@ public class PersegiPanjang16 {
         System.out.println("persegi panjang, panjang: "+ 
         panjang + ", lebar: "+ lebar);
     }
+    public PersegiPanjang16(int p, int l){
+        panjang = p;
+        lebar = l;
+    }
 }
